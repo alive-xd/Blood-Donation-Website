@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(181, 174, 174); */
+    font-family: 'Poppins', sans-serif;
+}
+.main_body{
+    background-color: #ffdcdc;
+}
+
+.first_container {
+    height: 5%;
+    width: 100%;
+    
+    /* text-align: center; */
+
+}
+
+
+.logo_img {
+    height: 35px;
+    width: 50px;
+    border-radius: 4px;
+     position:center;/*
+    top:4px;
+    left:4px; */
+}
+
+
+
+.logo {
+    margin-left: 40%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.tag_line{
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(152, 7, 7);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 54px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/*-----------*/
+.body_1{
+    margin: 21px;
+    padding: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.find_donar{
+    height: 200px;
+    width: 25%;
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 #ffdcdc;
+    transition-property: all;
+    transition: 0.3s;
+}
+
+
+.find_donar:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 1;
+ }
+
+ .video{
+     border-radius: 20px;
+
+ }
+ .search{
+    display: inline-block;
+    position: absolute;
+    width: 3%;
+    border: 0px solid;
+    top: 55%;
+    margin: 0px auto;
+    left: 10%;
+ }
+ .search input[type=text]{
+    padding: 6px;
+    font-size: 17px;
+    right: 0%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin-right: 16px;
+    border-radius: 0px;
+ }
+ 
+ input{
+     padding:4px 10px;
+    outline:none;
+    border:none;
+    border-radius:2px;
+ }
+
+ .registration{
+    transition: all 0.4s ease;
+    border-radius: 4px;
+
+ }
+ .video{
+    opacity: 0.8;
+ }
+
+
+/*---------*/ 
+
+
+.background-login{
+    height: 60px;
+    background-color: #ffdcdc;
+    background-size: cover;
+    margin-top: -56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+ .signup-box {
+    width: 760px;
+    height: 620px;
+    margin: auto;
+    background-color: #ffdcdc;
+    border-radius: 3px;
+  }
+  
+ .login-box {
+    width: 370px;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #ffdcdc;
+    box-shadow: 0px 8px 16px 0px;
+    
+    
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #000000;
+  }
+  /*---------*/
+  .background-thirdsection {
+    height: 950px;
+    background-color: #ffdcdc;
+    background-size: cover;
+    margin-top: -14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.third_box{
+    text-align: center;
+    padding-top: 53px;
+}
+
+.reg_head1{
+    font-size: 44px;
+    font-weight: bolder;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.reg_head2{
+    font-size: 27px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.third_border{
+    border: 2px solid black;
+    max-width: 464px;
+    margin: auto;
+    text-align: left;
+    padding: 42px 42px 42px 87px;
+    margin-top: 14px;
+}
+
+.space_box1{
+    margin: 0px 0px 28px 0px;
+    padding: 7px 223px 7px 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#id_space_box1{
+    padding: 7px 275px 7px 7px;
+}
+
+#third_btn{
+    display: flex;
+    padding: 8px 155px 8px 155px;
+}
+
+.third_button1{
+    
+    margin: 0px 8px 0px -164px;
+    padding: 7px 80px 8px 80px;
+    border: 1px solid black;
+}
+
+
+.third_button2{
+    margin: 0px 0px 0px 15px;
+    padding: 7px 80px 8px 80px;
+    border: 1px solid black;
+}
+
+.third_button1:hover{
+    background-color: #c9c6c6;
+}
+
+.third_button2:hover{
+    background-color: #c9c6c6;
+}
+/*---------*/
+.background-firstsection {
+    background-color: #ffdcdc;
+    background-size: cover;
+    height: 750px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 88%;
+    margin: auto;
+    height: 95%;
+}
+
+.firsthalf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Zen Antique Soft', serif;
+
+}
+
+.secondhalf {
+    width: 50%;
+
+}
+
+.secondhalf img {
+    width: 54%;
+    margin-left: 311px;
+    border: 5px solid #171616;
+    border-radius: 59px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.text-small li {
+    font-size: 18px;
+}
+
+.top {
+    font-size: 26px;
+    padding: 19px 0px 0px 0px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/*--------------*/
+
+
+.background-sixthsection{
+    background-color: #ffdcdc;
+    background-size: cover;
+    height: 850px
+}
+.box-main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 88%;
+    margin: auto;
+    height: 95%;
+}
+.firstpart {
+    width: 50%;
+    display: flex;
+    height:150px;
+    
+}
+.text-small2 {
+    font-size: 18px;
+    position:absolute;
+    top:2900px;
+    left:360px;
+}
+
+.text-small2 li {
+    font-size: 18px;
+}
+.top1 {
+    font-size: 26px;
+    padding: 19px 0px 0px 0px;
+    font-family: 'Fredericka the Great', cursive;
+    position: absolute;
+    top:2800px;
+}
+.secondpart {
+    width: 50%;
+
+}
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD DONATION</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="main_body">
+    <div class="first_container">
+        <div class="first_container" >
+            <div class="logo"><img src="Images/logo.jpg" alt="logo" height="50px" width="50px"><h1>UNI   BLOOD   DONATION</h1></div>
+               <h1 class="tag_line">A Social Initiative</h1>
+           </div>
+       </div>
+       <ul class="nav_bar">
+           <li> <a href="#" class="registration">REGISTRATION </a></li>
+           <li> <a href="#" class="registration">WHY DONATE BLOOD </a> </li>
+           <li> <a href="#" class="registration">WHO CAN GIVE BLOOD </a> </li>
+           <li> <a href="#" class="registration">REFER A FRIEND </a> </li>
+           <li> <a href="contactus.html">CONATACT US </a> </li>
+       </ul>
+
+    <div class="body_1">
+        <div class="find_donar">
+            <center>FIND A DONAR</center>
+            <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+              <select id ="state" class="form-control" required></select>
+              <script language="javascript">print_state("sts");</script> 
+              
+              <br>
+            <label for="blood">blood-group - </label>
+            <select name="blood-group" id="group">
+                <option value="#">A+</option>
+                <option value="#">A</option>
+                <option value="#">B+</option>
+                <option value="#">B</option>
+                <option value="#">AB</option>
+                <option value="#">O</option>
+            </select>
+            <div class="search">
+                <input type="button" value="Search">
+            </div>
+ 
+        </div>
+<!---------------->
+        <section class="login" id="#">
+
+            <div class="login-box">
+                <h1>Login</h1>
+                <form>
+                  <label>Email</label>
+                  <input type="email" placeholder="" />
+                  <label>Password</label>
+                  <input type="password" placeholder="" />
+                  <input type="button" value="Submit" />
+                <closeform></closeform></form>
+              </div>
+              <p class="para-2">
+                 <a href="#"><b>Don't have an account? Sign Up Here</b></a>
+              </p>
+            </section></div>
+       </section>
+    </div>
+<br>
+<hr>
+<!--------------------------->
+              <section class="background-thirdsection" id="REGISTRATION">
+
+                <div class="third_box">
+                    <div>
+                        <p class="reg_head1">UNI BLOOD DONATION</p>
+                    </div>
+                    <div>
+                        <p class="reg_head2">Register as a blood donor</p>
+                    </div>
+                    <div class="third_border">
+                        <div class="third_box_one">
+                            <label for="name">
+                                <span class="box_inbox">Full Name</span>
+                            </label>
+                            <div>
+                                <input type="text" class="space_box1" placeholder="Name" tabindex="1">
+                            </div>
+                        </div>
+                        <div class="third_box_one">
+                            <label for="Eligible">
+                                <span class="box_inbox">Eligible</span>
+                            </label>
+                            <div>
+                                Yes: <input class="space_box1" type="checkbox"> No: <input type="checkbox">
+                            </div>
+                        </div>
+        
+                        <div class="third_box_one">
+                            <label for="date">
+                                <span class="box_inbox">Date Of Birth</span>
+                            </label>
+                            <div>
+                                <input type="date" class="space_box1" id="id_space_box1" placeholder="Date Of Birth"
+                                    tabindex="1">
+                            </div>
+                        </div>
+        
+                        <div class="third_box_one">
+                            <label for="name">
+                                <span class="box_inbox">Last Donate Date</span>
+                            </label>
+                            <div>
+                                <input type="date" id="id_space_box1" class="space_box1" placeholder="Date" tabindex="1">
+                            </div>
+                        </div>
+        
+                        <div class="third_box_one">
+                            <label for="name">
+                                <span class="box_inbox">Phone Number</span>
+                            </label>
+                            <div>
+                                <input type="contact" class="space_box1" placeholder="Number" tabindex="1">
+                            </div>
+                        </div>
+        
+                        <div class="third_box_one">
+                            <label for="name">
+                                <span class="box_inbox">Address</span>
+                            </label>
+                            <div>
+                                <input type="text" class="space_box1" placeholder="Address" tabindex="1">
+                            </div>
+                        </div>
+        
+                        <div class="third_box_one" id="third_btn">
+                            <div>
+                                <button class="third_button1">Reset</button>
+                            </div>
+        
+                            <div>
+                                <button class="third_button2">Submit</button>
+                            </div>
+                        </div>
+        
+        
+        
+        
+                    </div>
+                </div>
+            </section>
+            <br>
+    <!----------------->
+    <section class="background-firstsection" id="section-A">
+        <div class="box-main">
+            <div class="firsthalf">
+                <h2 class="top">Why Donate Blood!</h2>
+                <p class="text-small">Blood is the most precious gift that anyone can give to another person the gift of
+                    life. A decision to donate your blood can save a life, or even several if your blood is separated
+                    into its components red cells, platelets and plasma which can be used individually for patients with
+                    specific conditions.</p>
+                <h2 class="top">Who Can Donate Blood!</h2>
+                <p class="text-small">Below are some basic eligibility guidelines: Age: You are aged between 18 and 65.
+                    * In some countries national legislation permits 16-17 year-olds to donate provided that they fulfil
+                    the physical and hematological criteria required and that appropriate consent is obtained.</p>
+                
+            </div>
+            <div class="secondhalf">
+                <img src="Images/download.png" alt="blood-donation image">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <br>
+    <!------------------>
+    <section class="background-sixthsection" id="section-A">
+        <div class="box-main2">
+            <div class="firstpart">
+           <h2 class="top1">How To Donate Blood!</h2>
+            <p class="text-small2">
+            <ul class="text-small2">
+                <p>*Medical Check up (5 Mins) </p>
+                <p>*Donors Medical History & life style is asked </p>
+                <p>*heck up of temperature,blood pressure, pulse and haemoglobin.</p>
+                <p>*Donation (8 Mins) Phlebotomist draws unit (350ml/450ml) of blood.</li></p>
+                <p>*Refreshment (10 Mins).
+            </ul></p>
+        </div>
+        <div class="secondpart">
+            <a class="video" href="https://www.youtube.com/watch?v=ho1Dk20ZF-g&ab_channel=sayaaniladki">click
+                here</a>
+        </div>
+        <br>
+        
+
+    </section>
+    <!---------------->
+    <!-- contact section start -->
+    
+
+    </div>
+</body>
+
+</html>
